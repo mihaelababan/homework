@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My website</title>
+        <style>
+            h1{
+                text-align: center;   
+            }
+            .container {
+                flex-direction: column-reverse;
+                display: flex;
+                align-items: baseline;
+            }
+            .container2 {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                 /* row-gap column gap */
+                
+}
+            
+            .container3{
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            .container4{
+                display: flex;
+                flex-direction: row;
+            }
+            .container5{
+                display: flex;
+                flex-wrap: nowrap;
+            }
+            .container6{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .container7{
+                display:flex ;
+                justify-content: center;
+            }
+            .container8{
+                display: flex;
+                justify-content: space-between;
+            }
+            .container9{
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .box {
+                border: 2px solid violet;
+                width: 20px;
+                height: 20px;            }
+        </style>
+    </head>
+    <body>
+        <h1> MY WEBSITE</h1>
+        <h2>Flex flex-direction</h2>
+        <p>1.column reverse</p>
+        <div class="container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+        </div>
+         <hr>
+         <p>2.column</p>
+         <div class="container2">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+             <div class="box">9</div>
+             <div class="box">10</div>
+             <div class="box">11</div>
+             <div class="box">12</div>
+         </div>
+         <hr>
+         <p>3.row reverse</p>
+         <div class="container3">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+             <div class="box">9</div>
+             <div class="box">10</div>
+             <div class="box">11</div>
+             <div class="box">12</div>
+         </div>
+         <hr>
+         <p>4.row</p>
+         <div class="container4">
+             <div class="box">1</div>
+             <div class="box">2</div>
+             <div class="box">3</div>
+             <div class="box">4</div>
+             <div class="box">5</div>
+             <div class="box">6</div>
+             <div class="box">7</div>
+             <div class="box">8</div>
+             <div class="box">9</div>
+             <div class="box">10</div>
+             <div class="box">11</div>
+             <div class="box">12</div>
+         </div>
+         <hr>
+         <h2>Flex wrap</h2>
+         <p>5.nowrap</p>
+         <div class="container5">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+            <div class="box">12</div>
+        </div>
+        <hr>
+        <p>6.wrap</p>
+        <div class="container6">
+           <div class="box">1</div>
+           <div class="box">2</div>
+           <div class="box">3</div>
+           <div class="box">4</div>
+           <div class="box">5</div>
+           <div class="box">6</div>
+           <div class="box">7</div>
+           <div class="box">8</div>
+           <div class="box">9</div>
+           <div class="box">10</div>
+           <div class="box">11</div>
+           <div class="box">12</div>
+       </div>
+       <hr>
+       <h2>justify-content</h2>
+       <p>7.justify-content</p>
+       <div class="container7">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+          <div class="box">4</div>
+          <div class="box">5</div>
+          <div class="box">6</div>
+          <div class="box">7</div>
+          <div class="box">8</div>
+          <div class="box">9</div>
+          <div class="box">10</div>
+          <div class="box">11</div>
+          <div class="box">12</div>
+      </div>
+      <hr>
+      <p>8.justify-content(space-between)</p>
+      <div class="container8">
+         <div class="box">1</div>
+         <div class="box">2</div>
+         <div class="box">3</div>
+         <div class="box">4</div>
+         <div class="box">5</div>
+         <div class="box">6</div>
+         <div class="box">7</div>
+         <div class="box">8</div>
+         <div class="box">9</div>
+         <div class="box">10</div>
+         <div class="box">11</div>
+         <div class="box">12</div>
+     </div>
+     <hr>
+     <p>9.justify-content(space-evenly)</p>
+     <div class="container9">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+    </div>
+    <hr>
+
+
+
+    </body>
+</html>
